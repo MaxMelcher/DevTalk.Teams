@@ -23,7 +23,15 @@
       "color": "bot-icon-96x96.png"
     },
     "accentColor": "#FFFFFF",
-    "configurableTabs": [],
+    "configurableTabs": [
+      {
+        "canUpdateConfiguration": false,
+        "configurationUrl": "https://devrunde.azurewebsites.net/configuration.html",
+        "scopes": [
+          "team"
+        ]
+      }
+    ],
     "staticTabs": [],
     "bots": [
       {
@@ -60,5 +68,12 @@
       "identity",
       "messageTeamMembers"
     ],
-    "validDomains": []
+    "validDomains": [
+      "devrunde.azurewebsites.net",
+      "melcherit.sharepoint.com",
+      "graph.microsoft.com",
+      "statics.teams.microsoft.com",
+      "code.jquery.com",
+      "secure.aadcdn.microsoftonline-p.com"
+    ]
   }

@@ -1,0 +1,14 @@
+﻿<script src="https://statics.teams.microsoft.com/sdk/v1.0/js/MicrosoftTeams.min.js"></script>
+<script type="text/javascript">
+    microsoftTeams.initialize();
+    microsoftTeams.settings.registerOnSaveHandler(function(saveEvent){
+        microsoftTeams.settings.setSettings({
+            entityId: "devrunde",
+            contentUrl: "https://devrunde.azurewebsites.net/",
+            suggestedDisplayName: "DevRunde",
+            websiteUrl: "https://devrunde.azurewebsites.net"
+        });
+        saveEvent.notifySuccess();
+    });
+    microsoftTeams.settings.setValidityState(true);
+</script>
