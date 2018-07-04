@@ -1,9 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <title></title>
     <meta charset="utf-8" />
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://statics.teams.microsoft.com/sdk/v1.0/js/MicrosoftTeams.min.js"></script>
+    <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.16/js/adal.min.js"></script>
+    <script src="main.js"></script>
 </head>
 <body style="font-family:'Segoe UI'">
     <h1>EchoBot sample using ASP.Net Core 2: DEVRunde</h1>
@@ -21,5 +25,7 @@
         aTag.innerHTML = location.protocol + "//" + location.host + "/api/messages";
         urlDiv.appendChild(aTag);
     </script>
+
+    <button class="app-signIn ms-font-m" onclick="login();">Login</button>
 </body>
 </html>
