@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Bot_Builder_Echo_Bot1
+namespace AspNetCore_EchoBot_With_State
 {
     public class Program
     {

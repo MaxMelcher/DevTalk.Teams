@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot Builder Echo Bot1", "Bot Builder Echo Bot1\Bot Builder Echo Bot1.csproj", "{F8F9B3D4-BB63-4A93-A491-F86CFFB4E1B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotBuilderEchoBot1", "Bot Builder Echo Bot1\BotBuilderEchoBot1.csproj", "{F8F9B3D4-BB63-4A93-A491-F86CFFB4E1B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

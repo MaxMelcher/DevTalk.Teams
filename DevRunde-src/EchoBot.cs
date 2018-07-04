@@ -1,10 +1,13 @@
-﻿using System.Threading.Tasks;
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+using System.Threading.Tasks;
 using Microsoft.Bot;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Core.Extensions;
 using Microsoft.Bot.Schema;
 
-namespace Bot_Builder_Echo_Bot1
+namespace AspNetCore_EchoBot_With_State
 {
     public class EchoBot : IBot
     {
@@ -28,7 +31,7 @@ namespace Bot_Builder_Echo_Bot1
                 state.TurnCount++;
 
                 // Echo back to the user whatever they typed.
-                await context.SendActivity($"Turn {state.TurnCount}: You sent '{context.Activity.Text}'");
+                await context.SendActivity($"Turn {state.TurnCount}: You sent '{context.Activity.Text}'- DEVRunde is awesome");
             }
         }
     }    

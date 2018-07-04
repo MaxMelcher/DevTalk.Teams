@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Bot.Builder.BotFramework;
@@ -8,7 +8,7 @@ using Microsoft.Bot.Builder.TraceExtensions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Bot_Builder_Echo_Bot1
+namespace AspNetCore_EchoBot_With_State
 {
     public class Startup
     {

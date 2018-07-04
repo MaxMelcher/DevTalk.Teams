@@ -1,0 +1,64 @@
+{
+    "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.0",
+    "id": "2893bdbd-0c68-4489-a3fe-26742153b9d2",
+    "version": "0.0.1",
+    "packageName": "net.azurewebsites.devrunde",
+    "developer": {
+      "name": "Office Developer",
+      "websiteUrl": "http://devrunde.azurewebsites.net/",
+      "privacyUrl": "http://devrunde.azurewebsites.net/privacy.html",
+      "termsOfUseUrl": "http://devrunde.azurewebsites.net/tou.html"
+    },
+    "name": {
+      "short": "devrunde",
+      "full": "devrunde"
+    },
+    "description": {
+      "short": "TODO: add short description here",
+      "full": "TODO: add full description here"
+    },
+    "icons": {
+      "outline": "bot-icon-20x20.png",
+      "color": "bot-icon-96x96.png"
+    },
+    "accentColor": "#FFFFFF",
+    "configurableTabs": [],
+    "staticTabs": [],
+    "bots": [
+      {
+        "botId": "2893bdbd-0c68-4489-a3fe-26742153b9d2",
+        "needsChannelSelector": true,
+        "isNotificationOnly": false,
+        "scopes": [
+          "team",
+          "personal"
+        ],
+        "commandLists": [
+          {
+            "scopes": [
+              "team",
+              "personal"
+            ],
+            "commands": [
+              {
+                "title": "Help",
+                "description": "Shows help information"
+              },
+              {
+                "title": "Dev Runde",
+                "description": "Make me awesome"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "connectors": [],
+    "composeExtensions": [],
+    "permissions": [
+      "identity",
+      "messageTeamMembers"
+    ],
+    "validDomains": []
+  }

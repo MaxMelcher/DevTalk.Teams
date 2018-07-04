@@ -1,4 +1,4 @@
-﻿namespace Bot_Builder_Echo_Bot1
+namespace AspNetCore_EchoBot_With_State
 {
     /// <summary>
     /// Class for storing conversation state. 
